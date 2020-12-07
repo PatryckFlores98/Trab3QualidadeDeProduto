@@ -90,11 +90,13 @@
       <DesignTime>True</DesignTime>
       <DependentUpon>Validate_buy_process.feature</DependentUpon>
     </Compile>
+    <Compile Include="Pages\SignInPage.cs" />
     <Compile Include="Pages\SummaryPage.cs" />
     <Compile Include="Pages\ProductPage.cs" />
     <Compile Include="Pages\HomePage.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="SetUp.cs" />
+    <Compile Include="Steps\SignInStep.cs" />
     <Compile Include="Steps\SummaryStep.cs" />
     <Compile Include="Steps\ProductStep.cs" />
     <Compile Include="Steps\HomeStep.cs" />

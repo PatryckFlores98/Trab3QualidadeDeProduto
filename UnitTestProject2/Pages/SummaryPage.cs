@@ -31,7 +31,12 @@ namespace Trab3QP
             util = new Util();
         }
 
-      
+
+        public void ClickProceedToCheckout()
+        {
+
+            util.Click(locatorProceedToCheckoutButton);
+        }
 
         public void ValidateCartSummary()
         {

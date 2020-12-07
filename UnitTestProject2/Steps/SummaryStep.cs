@@ -13,8 +13,11 @@ namespace Trab3QP
             ValidateCartSummary();
         }
 
-      
-
+        [Given(@"I on Proceed to Checkout Button in Cart Summary")]
+        public void GivenIOnProceedToCheckoutButtonInCartSummary()
+        {
+            ClickProceedToCheckout();
+        }
 
 
 

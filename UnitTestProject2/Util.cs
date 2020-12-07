@@ -47,6 +47,12 @@ namespace Trab3QP
             SetUp.GetInstance().Driver.Navigate().GoToUrl(url);
         }
 
+        public void Close()
+        {
+            SetUp.GetInstance().Driver.Close();
+        }
+
+
         public void Click(By locator)
         {
             try
